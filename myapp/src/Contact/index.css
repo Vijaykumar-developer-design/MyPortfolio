@@ -1,0 +1,144 @@
+.contact-bg-container {
+  min-height: 80vh;
+  padding-top: 100px;
+
+  /* border: 2px solid red; */
+}
+.contact-head {
+  color: white;
+  font-family: "Roboto";
+  text-align: left;
+}
+.entire-contact-container {
+  padding: 10px;
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-mail-icon {
+  font-size: 30px;
+  margin-right: 15px;
+  color: #fac31e;
+}
+.gamil-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.contact-detail {
+  font-size: 20px;
+  color: rgb(102, 255, 0);
+}
+
+.contact-linkedIn-icon {
+  color: #fac31e;
+  font-size: 30px;
+  margin-right: 15px;
+}
+.linkedIn-conatiner {
+  text-decoration: none;
+}
+.input-element {
+  padding: 10px;
+  height: 30px;
+  font-size: 15px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  outline: none;
+  border: none;
+  width: 80%;
+}
+.user-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* border: 2px solid red; */
+  padding: 10px;
+  width: 50%;
+}
+.message-element {
+  border-radius: 5px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  width: 80%;
+  margin-bottom: 20px;
+}
+.contact-details-container {
+  display: flex;
+  justify-content: space-between;
+
+  width: 100%;
+  padding: 10px;
+}
+
+.submit-btn {
+  border: outset;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 10px;
+  width: 120px;
+  background-color: transparent;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+.both-containers {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-evenly;
+}
+.download-btn {
+  background-color: blue;
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  margin-top: 20px;
+  outline: none;
+  border: none;
+  width: 150px;
+}
+.resume-link {
+  background-color: blue;
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  margin-top: 20px;
+  outline: none;
+  border: none;
+  width: 150px;
+  text-decoration: none;
+  align-self: flex-start;
+}
+@media (max-width: 576px) {
+  .contact-bg-container {
+    padding-top: 50px;
+    /* margin-top: 50px; */
+  }
+  .both-containers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .entire-contact-container {
+    width: 80%;
+  }
+  .contact-detail {
+    font-size: 15px;
+  }
+  .user-form {
+    width: 80%;
+    margin-top: 30px;
+  }
+  .submit-btn {
+    font-size: 15px;
+    width: 100px;
+  }
+}

@@ -1,0 +1,77 @@
+.projects-bg {
+  /* border: 2px solid red; */
+  padding-top: 120px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.projcects-container {
+  height: 450px;
+  width: 90%;
+  /* border: 2px solid red; */
+}
+.project-title {
+  color: #86f7be;
+  font-style: italic;
+  font-family: "Bree Serif";
+  align-self: flex-start;
+  margin-left: 30px;
+  margin-top: -25px;
+}
+.food-img {
+  height: 250px;
+  width: 90%;
+  background-size: cover;
+  border-radius: 10px;
+}
+.card-title {
+  color: orange;
+}
+.card {
+  border: 1px solid aquamarine;
+  border-radius: 10px;
+  background-color: transparent;
+  padding: 10px;
+  box-shadow: 0px 0px 15px 15px #6dc4f2;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.card:hover {
+  background-color: #f2e4c4;
+  transition: 1s ease-in;
+}
+.project-description {
+  text-align: left;
+  text-indent: 50px;
+  color: black;
+  flex-wrap: wrap;
+}
+.project-description:hover {
+  color: navy;
+  transition: 1s ease-in;
+}
+.hyper-link {
+  align-self: flex-start;
+  text-decoration: none;
+  color: red;
+  margin-bottom: 10px;
+}
+.hyper-link:hover {
+  color: blue;
+}
+.login {
+  align-self: flex-start;
+}
+@media screen and (max-width: 576px) {
+  .projcects-container {
+    padding-left: -10px;
+  }
+  .food-img {
+    height: 300px;
+    width: 300px;
+  }
+}
