@@ -1,5 +1,4 @@
 .projects-bg {
-  /* border: 2px solid red; */
   padding-top: 120px;
   min-height: 100vh;
   display: flex;
@@ -7,9 +6,8 @@
   align-items: center;
 }
 .projcects-container {
-  height: 450px;
+  height: 600px;
   width: 90%;
-  /* border: 2px solid red; */
 }
 .project-title {
   color: #86f7be;
