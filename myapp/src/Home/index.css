@@ -1,0 +1,13 @@
+.home-container {
+  color: navy;
+}
+.copyright {
+  color: white;
+  font-size: 15px;
+  padding: 10px;
+  /* border: 2px solid red; */
+}
+.copyright-icon {
+  margin-top: 15px;
+  color: rgb(84, 2, 250);
+}

@@ -31,16 +31,16 @@ const NavBar = () => {
         </Link>
       </div>
       <div className={`sidebar ${isSidebarOpen ? "open" : ""}`}>
-        <Link className="link" to="/">
+        <Link title="Home" className="link" to="/">
           <IoHomeSharp className="smallIcon" />
         </Link>
-        <Link className="link" to="/about">
+        <Link title="About" className="link" to="/about">
           <IoIosPerson className="smallIcon" />
         </Link>
-        <Link className="link" to="/projects">
+        <Link title="Projects" className="link" to="/projects">
           <IoCodeSlash className="smallIcon" />
         </Link>
-        <Link className="link" to="/contact">
+        <Link title="Contact" className="link" to="/contact">
           <IoMailUnreadOutline className="smallIcon" />
         </Link>
 
