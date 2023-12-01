@@ -157,7 +157,7 @@ const Projects = () => (
           </p>
           <a
             className="hyper-link"
-            href="https://jobsappvijy.ccbp.tech/"
+            href="https://vijyjobbyapp.netlify.app/"
             rel="noreferrer"
             target="_blank"
           >
