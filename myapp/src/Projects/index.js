@@ -38,6 +38,7 @@ const Projects = () => (
           <a
             className="hyper-link"
             href="https://vijyfoodmunch.ccbp.tech/"
+            rel="noreferrer"
             target="_blank"
           >
             {"->"}Project Link
@@ -66,6 +67,7 @@ const Projects = () => (
           <a
             className="hyper-link"
             href="https://vijywikipedia.ccbp.tech/"
+            rel="noreferrer"
             target="_blank"
           >
             {"->"}Project Link
@@ -111,6 +113,7 @@ const Projects = () => (
           <a
             className="hyper-link"
             href="https://bookhubvijy.netlify.app/"
+            rel="noreferrer"
             target="_blank"
           >
             {"->"}Project Link
@@ -155,6 +158,7 @@ const Projects = () => (
           <a
             className="hyper-link"
             href="https://jobsappvijy.ccbp.tech/"
+            rel="noreferrer"
             target="_blank"
           >
             {"->"}Project Link
