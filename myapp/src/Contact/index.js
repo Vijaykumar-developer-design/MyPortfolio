@@ -28,7 +28,7 @@ const Contact = () => {
             <p className="contact-detail"> Vijaykumar</p>
           </a>
 
-          <a href="vijay-cv.pdf" download="Resume" className="resume-link">
+          <a href="vijay_resume.pdf" download="Resume" className="resume-link">
             Download Resume
           </a>
         </div>
