@@ -1,10 +1,10 @@
 .aboutHomeBg {
   padding-top: 120px;
-  /* border: 2px solid red; */
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 100%;
 }
 .aboutHome {
   width: 80%;

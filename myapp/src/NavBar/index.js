@@ -31,18 +31,26 @@ const NavBar = () => {
         </Link>
       </div>
       <div className={`sidebar ${isSidebarOpen ? "open" : ""}`}>
-        <Link title="Home" className="link" to="/">
-          <IoHomeSharp className="smallIcon" />
-        </Link>
-        <Link title="About" className="link" to="/about">
-          <IoIosPerson className="smallIcon" />
-        </Link>
-        <Link title="Projects" className="link" to="/projects">
-          <IoCodeSlash className="smallIcon" />
-        </Link>
-        <Link title="Contact" className="link" to="/contact">
-          <IoMailUnreadOutline className="smallIcon" />
-        </Link>
+        <span title="Home">
+          <Link className="link" to="/">
+            <IoHomeSharp className="smallIcon" />
+          </Link>
+        </span>
+        <span title="About">
+          <Link className="link" to="/about">
+            <IoIosPerson className="smallIcon" />
+          </Link>
+        </span>
+        <span title="Projects">
+          <Link className="link" to="/projects">
+            <IoCodeSlash className="smallIcon" />
+          </Link>
+        </span>
+        <span title="Contact">
+          <Link className="link" to="/contact">
+            <IoMailUnreadOutline className="smallIcon" />
+          </Link>
+        </span>
 
         <IoMdClose onClick={toggleSidebar} className="smallIconClose" />
       </div>
@@ -55,26 +63,21 @@ const NavBar = () => {
       </button>
 
       <ul className="menuList">
-        <li className="element">
-          <Link className="link" to="/">
-            Home
-          </Link>
-        </li>
-        <li className="element">
-          <Link className="link" to="/about">
-            About
-          </Link>
-        </li>
-        <li className="element">
-          <Link className="link" to="/projects">
-            Projects
-          </Link>
-        </li>
-        <li className="element">
-          <Link className="link" to="/contact">
-            Contact
-          </Link>
-        </li>
+        <Link className="link" to="/">
+          <li className="nav-item">Home</li>
+        </Link>
+
+        <Link className="link" to="/about">
+          <li className="nav-item">About</li>
+        </Link>
+
+        <Link className="link" to="/projects">
+          <li className="nav-item">Projects</li>
+        </Link>
+
+        <Link className="link" to="/contact">
+          <li className="nav-item">Contact</li>
+        </Link>
       </ul>
     </nav>
   );

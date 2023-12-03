@@ -1,16 +1,13 @@
 import { MdMail } from "react-icons/md";
 import { IoCall } from "react-icons/io5";
 import { FaLinkedin } from "react-icons/fa";
-import NavBar from "../NavBar";
 
 import "./index.css";
 
 const Contact = () => {
   return (
     <div className="contact-bg-container">
-      <NavBar />
       <div className="both-containers">
-        {/* contact code */}
         <div className="entire-contact-container">
           <h1 className="contact-head">Contact Me</h1>
           <div className="gamil-container">

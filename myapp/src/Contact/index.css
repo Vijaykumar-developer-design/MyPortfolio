@@ -1,17 +1,14 @@
 .contact-bg-container {
-  min-height: 80vh;
+  min-height: 100vh;
   padding-top: 100px;
-
-  /* border: 2px solid red; */
 }
 .contact-head {
-  color: white;
+  color: #ff8903;
   font-family: "Roboto";
   text-align: left;
 }
 .entire-contact-container {
   padding: 10px;
-  /* border: 2px solid red; */
   display: flex;
   flex-direction: column;
 }
@@ -53,7 +50,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* border: 2px solid red; */
+
   padding: 10px;
   width: 50%;
 }
@@ -65,13 +62,6 @@
   font-size: 15px;
   width: 80%;
   margin-bottom: 20px;
-}
-.contact-details-container {
-  display: flex;
-  justify-content: space-between;
-
-  width: 100%;
-  padding: 10px;
 }
 
 .submit-btn {
@@ -88,8 +78,7 @@
 }
 .both-containers {
   display: flex;
-  /* align-items: center; */
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 .download-btn {
   background-color: blue;
@@ -134,8 +123,9 @@
     font-size: 15px;
   }
   .user-form {
-    width: 80%;
+    width: 90%;
     margin-top: 30px;
+    margin-left: -40px;
   }
   .submit-btn {
     font-size: 15px;

@@ -1,6 +1,5 @@
 import { useState } from "react";
 
-import NavBar from "../NavBar";
 import "./index.css";
 
 const status = {
@@ -17,7 +16,6 @@ const About = () => {
   const renderDetails = () => {
     return isActive === status.skill ? (
       <div>
-        <NavBar />
         <div className="skillsContainer">
           <h1 className="skillCategory">Front-End </h1>
           <p className="skillSet">HTML, CSS, Bootstrap, JavaScript, ReactJS</p>
@@ -33,7 +31,6 @@ const About = () => {
       </div>
     ) : (
       <div>
-        <NavBar />
         <div className="skillsContainer">
           <h1 className="skillCategory">
             The Adoni Arts And Science College - AP

@@ -5,10 +5,13 @@ import Home from "./Home";
 import About from "./About";
 import Projects from "./Projects";
 import Contact from "./Contact";
+import NavBar from "./NavBar";
+
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
+        <NavBar />
         <Routes>
           <Route path="/" Component={Home} />
           <Route exact path="/about" Component={About} />
