@@ -22,7 +22,7 @@ const About = () => {
         </div>
         <div className="skillsContainer">
           <h1 className="skillCategory">Back-End </h1>
-          <p className="skillSet">Python, Java, Node.js</p>
+          <p className="skillSet">Python, Express.js, Node.js</p>
         </div>
         <div className="skillsContainer">
           <h1 className="skillCategory">Databases</h1>
